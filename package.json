@@ -1,0 +1,30 @@
+{
+  "name": "devbills-api",
+  "version": "1.0.0",
+  "description": "DevBills API - Contole sua vida finaceira pessoal de forma rápida e fácil",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Charles Manhães",
+    "email": "charlesmanhaes1@gmail.com",
+    "url": "https://github.com/csmanhaes86"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@eslint/json": "^0.11.0",
+    "@types/express": "^5.0.1",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3",
+    "typescript-eslint": "^8.29.1"
+  }
+}
